@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Sun Slayers Custom Items</name>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="sunslayers-items.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sunslayers/sunslayers-items.xml" />
 		</update>
 	</info>
@@ -33,16 +33,16 @@
 			<p class="indent">If the Twin's Blade is thrown or placed, its ability activates. While within 40ft of the blade, the user gains the benefit of having their twin visible.</p>
 		</description>
 		<setters>
-			<set name="keywords">scimitar,reach,versatile</set>
+			<set name="keywords">khopesh,thrown,versatile</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="slot">versatile</set>
-			<set name="type" addition="scimitar">Weapon</set>
+			<set name="type" addition="khopesh">Weapon</set>
 			<set name="damage" type="slashing">1d8</set>
 			<set name="attunement">false</set>
 			<set name="rarity">Rare</set>
 			<set name="enhancement">0</set>
-			<set name="weapon">Scimitar</set>
+			<set name="weapon">Khopesh</set>
 		</setters>
 	</element>
 

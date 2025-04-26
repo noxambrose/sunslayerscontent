@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="deities.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/refs/heads/main/sunslayers/deities.xml" />
+			<file name="deities.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sunslayers/deities.xml" />
 		</update>
 	</info>
 	<element name="Anubis" type="Deity" source="Sun Slayers" id="ID_SUN_DEITY_ANUBIS">

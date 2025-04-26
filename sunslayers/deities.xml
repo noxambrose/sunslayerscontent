@@ -2,10 +2,10 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="deities.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/mythic-odysseys-of-theros/deities.xml" />
+			<file name="deities.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/refs/heads/main/sunslayers/deities.xml" />
 		</update>
 	</info>
-	<element name="Anubis" type="Deity" source="Sun Slayers" id="ID_SUNSLAYERS_DEITY_ANUBIS">
+	<element name="Anubis" type="Deity" source="Sun Slayers" id="ID_SUN_DEITY_ANUBIS">
 		<description>
 			<p>Guardian of the Dead</p>
 		</description>

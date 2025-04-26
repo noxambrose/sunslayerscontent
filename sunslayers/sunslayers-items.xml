@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Sun Slayers Custom Items</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="sunslayers-items.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sunslayers/sunslayers-items.xml" />
 		</update>
 	</info>
@@ -27,15 +27,16 @@
 <!-- MAGIC WEAPONS -->
 	
 <element name="Twin's Blade" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_TWINS_BLADE">
-	<supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+	<supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
 		<description>
 			<p>This item appears to be a dual-bladed khopesh. If you are proficient with scimitars, you are proficient with the <em>Twin's Blade</em>.</p>
 			<p class="indent">If the Twin's Blade is thrown or placed, its ability activates. While within 40ft of the blade, the user gains the benefit of having their twin visible.</p>
 		</description>
 		<setters>
-			<set name="keywords">scimitar,reach</set>
+			<set name="keywords">scimitar,reach,versatile</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
+			<set name="slot">versatile</set>
 			<set name="type" addition="scimitar">Weapon</set>
 			<set name="damage" type="slashing">1d8</set>
 			<set name="attunement">false</set>
@@ -45,3 +46,18 @@
 		</setters>
 	</element>
 </elements>
+
+<!-- PROFICIENCIES -->
+
+<element name="Weapon Proficiency (Khopesh)" type="Proficiency" source="Sun Slayers Custom Content" id="ID_SUN_WEAPON_PROFICIENCY_KHOPESH">
+		<supports>Weapon, Melee, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL</supports>
+	</element>
+	<element name="Kensei Weapon (Double-Bladed Scimitar)" type="Archetype Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_KENSEI_WEAPON_DOUBLE_BLADED_SCIMITAR">
+		<supports>Kensei Weapon, Melee</supports>
+        <description>
+			<p>You gain proficiency with the Khopesh if you don’t already have it.</p>
+        </description>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KHOPESH" />
+		</rules>
+	</element>

@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="sources.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/refs/heads/main/sunslayers/source.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/refs/heads/main/sunslayers/source.xml" />
 		<file name="sunslayers-items.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/refs/heads/main/sunslayers/sunslayers-items.xml" />
 	</files>
 </index>

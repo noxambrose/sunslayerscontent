@@ -4,7 +4,7 @@
 		<name>Sun Slayers</name>
 		<description>The content from the custom world setting of the Sun Slayers campaign.</description>
 		<author url="https://github.com/noxambrose">NoxAmbrose on GitHub</author>
-		<update version="0.2.5">
+		<update version="0.1.1">
 			<file name="sun-slayers.index" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/refs/heads/main/sun-slayers.index" />
 		</update>
 	</info>

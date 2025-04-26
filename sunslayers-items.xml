@@ -18,6 +18,7 @@
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="scimitar">Weapon</set>
+			<set name="damage" type="slashing">1d8</set>
 			<set name="attunement">false</set>
 			<set name="rarity">Rare</set>
 			<set name="enhancement">0</set>

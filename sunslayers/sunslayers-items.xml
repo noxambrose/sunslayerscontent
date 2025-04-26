@@ -20,7 +20,7 @@
 			<set name="weight" lb="3">3 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="damage" type="slashing">1d8</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KHOPESH</set>
+			<set name="proficiency">ID_SUN_WEAPON_PROFICIENCY_KHOPESH</set>
 		</setters>
 	</element>
 
@@ -52,12 +52,4 @@
 <element name="Weapon Proficiency (Khopesh)" type="Proficiency" source="Sun Slayers Custom Content" id="ID_SUN_WEAPON_PROFICIENCY_KHOPESH">
 		<supports>Weapon, Melee, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL</supports>
 	</element>
-	<element name="Kensei Weapon (Double-Bladed Scimitar)" type="Archetype Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_KENSEI_WEAPON_DOUBLE_BLADED_SCIMITAR">
-		<supports>Kensei Weapon, Melee</supports>
-        <description>
-			<p>You gain proficiency with the Khopesh if you don’t already have it.</p>
-        </description>
-		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KHOPESH" />
-		</rules>
-	</element>
+	

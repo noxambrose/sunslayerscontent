@@ -14,7 +14,7 @@
 		<setters>
 			<set name="abbreviation">SUN</set>
 			<set name="url">https://github.com/noxambrose</set>
-			<set name="author" abbreviation="WOTC" url="https://github.com/noxambrose">NoxAmbrose</set>
+			<set name="author" abbreviation="NOX" url="https://github.com/noxambrose">NoxAmbrose</set>
 			<set name="official">false</set>
 			<set name="core">false</set>
 			<set name="release">20250426</set>

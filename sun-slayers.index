@@ -11,5 +11,6 @@
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/refs/heads/main/sunslayers/source.xml" />
 		<file name="sunslayers-items.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/refs/heads/main/sunslayers/sunslayers-items.xml" />
+		<file name="deities.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/refs/heads/main/sunslayers/deities.xml" />
 	</files>
 </index>

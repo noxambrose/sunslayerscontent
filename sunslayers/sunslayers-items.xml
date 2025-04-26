@@ -29,7 +29,7 @@
 <element name="Twin's Blade" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_TWINS_BLADE">
 	<supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
 		<description>
-			<p>This item appears to be a dual-bladed khopesh. If you are proficient with scimitars, you are proficient with the <em>Twin's Blade</em>.</p>
+			<p>This item appears to be a dual-bladed khopesh. If you are proficient with khopeshes, you are proficient with the <em>Twin's Blade</em>.</p>
 			<p class="indent">If the Twin's Blade is thrown or placed, its ability activates. While within 40ft of the blade, the user gains the benefit of having their twin visible.</p>
 		</description>
 		<setters>

@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="tba" url="tba" />
+		<file name="sunslayers-items.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/refs/heads/main/sunslayers-items.xml" />
 	</files>
 </index>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="deities.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/mythic-odysseys-of-theros/deities.xml" />
+		</update>
+	</info>
+	<element name="Anubis" type="Deity" source="Sun Slayers" id="ID_SUNSLAYERS_DEITY_ANUBIS">
+		<description>
+			<p>Guardian of the Dead</p>
+		</description>
+		<setters>
+			<set name="setting">Pharonic Pantheon</set>
+			<set name="alignment">LN</set>
+			<set name="domains">Death, Grave*</set>
+			<set name="symbol">Black jackal</set>
+		</setters>
+	</element>
+</elements>

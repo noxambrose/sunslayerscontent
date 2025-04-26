@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.3">
-			<file name="source.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/refs/heads/main/sunslayers/source.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sunslayers/source.xml" />
 		</update>
 	</info>
 	<element name="Sun Slayers Custom Content" type="Source" source="Core" id="ID_NOXAMB_SOURCE_SUNSLAYERS">

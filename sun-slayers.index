@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Sun Slayers</name>
+		<description>The content from the custom world setting of the Sun Slayers campaign.</description>
+		<author url="https://github.com/noxambrose">NoxAmbrose on GitHub</author>
+		<update version="0.2.5">
+			<file name="sun-slayers.index" url="tba" />
+		</update>
+	</info>
+	<files>
+		<file name="tba" url="tba" />
+	</files>
+</index>

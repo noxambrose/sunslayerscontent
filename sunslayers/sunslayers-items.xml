@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Sun Slayers Custom Items</name>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="sunslayers-items.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sunslayers/sunslayers-items.xml" />
 		</update>
 	</info>
@@ -80,5 +80,4 @@
 <element name="Weapon Proficiency (Khopesh)" type="Proficiency" source="Sun Slayers Custom Content" id="ID_SUN_WEAPON_PROFICIENCY_KHOPESH">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 	</element>
-	
 </elements>

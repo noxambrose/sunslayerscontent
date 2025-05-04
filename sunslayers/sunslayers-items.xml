@@ -1,83 +1,87 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<info>
-		<name>Sun Slayers Custom Items</name>
-		<update version="0.0.9">
-			<file name="sunslayers-items.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sunslayers/sunslayers-items.xml" />
-		</update>
-	</info>
+  <info>
+    <name>Sun Slayers Custom Items</name>
+    <update version="0.0.10">
+      <file name="sunslayers-items.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sunslayers/sunslayers-items.xml" />
+    </update>
+  </info>
 
-<!-- MUNDANE ITEMS -->
-	
-<element name="Tarot Deck" type="Item" source="Player’s Handbook" id="ID_SUN_ITEM_TAROTDECK">
-		<description>
-			<p>A deck of tarot cards for use as a divining tool.</p>
-		</description>
-		<setters>
-			<set name="category">Adventuring Gear</set>
-			<set name="cost" currency="gp">2</set>
-			<set name="weight" lb="2">0.5 lb.</set>
-			<set name="stackable">false</set>
-		</setters>
-	</element>
+  <!-- MUNDANE ITEMS -->
 
-<!-- WEAPONS -->
-	
-<element name="Khopesh" type="Weapon" source="Sun Slayers Custom Content" id="ID_SUN_WEAPON_KHOPESH">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
-		<description>
-			<p></p>
-		</description>
-		<setters>
-			<set name="category">Weapons</set>
-			<set name="cost" currency="gp">25</set>
-			<set name="weight" lb="3">3 lb.</set>
-			<set name="slot">onehand</set>
-			<set name="damage" type="slashing">1d8</set>
-			<set name="proficiency">ID_SUN_WEAPON_PROFICIENCY_KHOPESH</set>
-		</setters>
-	</element>
+  <element name="Tarot Deck" type="Item" source="Player's Handbook" id="ID_SUN_ITEM_TAROTDECK">
+    <description>
+      <p>A deck of tarot cards for use as a divining tool.</p>
+    </description>
+    <setters>
+      <set name="category">Adventuring Gear</set>
+      <set name="cost" currency="gp">2</set>
+      <set name="weight" lb="2">0.5 lb.</set>
+      <set name="stackable">false</set>
+    </setters>
+  </element>
 
-<!-- MAGIC WEAPONS -->
-	
-<element name="Twin's Blade" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_TWINS_BLADE">
-	<supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
-		<description>
-			<p>This item appears to be a dual-bladed khopesh. If you are proficient with khopeshes, you are proficient with the <em>Twin's Blade</em>.</p>
-			<p class="indent">If the Twin's Blade is thrown or placed, its ability activates. While within 40ft of the blade, the user gains the benefit of having their twin visible.</p>
-		</description>
-		<setters>
-			<set name="keywords">khopesh,thrown,versatile</set>
-			<set name="category">Magic Weapons</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="slot">versatile</set>
-			<set name="type" addition="khopesh">Weapon</set>
-			<set name="damage" type="slashing">1d8</set>
-			<set name="attunement">false</set>
-			<set name="rarity">Rare</set>
-			<set name="enhancement">0</set>
-			<set name="weapon">Khopesh</set>
-		</setters>
-	</element>
+  <!-- WEAPONS -->
 
-	<element name="Marky's Magical Master Mashers" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_MARKY_MAGIC_BOOTS">
-		<description>
-			<p>A pair of ornate magical boots made with the asistance of the artificers in Tinker Town, Marciano de Candia helped build these boots as a ay to buff the abilities of his sister's kicks. When worn the magic inside and steam powered mechanisms allow those wearing them to hit harder, jump higher, and run faster.</p>
-			<p>3 times a day one of three buffs can be chosen. +1 to attack and 1d6 force damage per attack, +10ft movement speed, or apply the spell Jump.</p>
-		</description>
-		<setters>
-			<set name="keywords">unarmed strikes, attack, damage</set>
-			<set name="category">Wondrous Items</set>
-			<set name="type">Wondrous Item</set>
-			<set name="rarity">Rare</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="5">5 lb.</set>
-		</setters>
-	</element>
+  <element name="Khopesh" type="Weapon" source="Sun Slayers Custom Content" id="ID_SUN_WEAPON_KHOPESH">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+    <description>
+      <p>A sickle-sword known for its curved blade, used in both slashing and hooking attacks.</p>
+    </description>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="gp">25</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="damage" type="slashing">1d8</set>
+      <set name="proficiency">ID_SUN_WEAPON_PROFICIENCY_KHOPESH</set>
+    </setters>
+  </element>
 
-<!-- PROFICIENCIES -->
+  <!-- MAGIC WEAPONS -->
 
-<element name="Weapon Proficiency (Khopesh)" type="Proficiency" source="Sun Slayers Custom Content" id="ID_SUN_WEAPON_PROFICIENCY_KHOPESH">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
-	</element>
+  <element name="Twin's Blade" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_TWINS_BLADE">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+    <description>
+      <p>This item appears to be a dual-bladed khopesh. If you are proficient with khopeshes, you are proficient with the <em>Twin's Blade</em>.</p>
+      <p class="indent">If the Twin's Blade is thrown or placed, its ability activates. While within 40 ft. of the blade, the user gains the benefit of having their twin visible.</p>
+    </description>
+    <setters>
+      <set name="keywords">khopesh,thrown,versatile</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="slot">onehand</set>
+      <set name="versatile">true</set>
+      <set name="type" addition="khopesh">Weapon</set>
+      <set name="damage" type="slashing">1d8</set>
+      <set name="attunement">false</set>
+      <set name="rarity">Rare</set>
+      <set name="enhancement">0</set>
+      <set name="weapon">Khopesh</set>
+      <set name="magic">true</set>
+    </setters>
+  </element>
+
+  <element name="Marky's Magical Master Mashers" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_MARKY_MAGIC_BOOTS">
+    <description>
+      <p>A pair of ornate magical boots made with the assistance of the artificers in Tinker Town. Marciano de Candia helped build these boots as a way to buff the abilities of his sister's kicks. When worn, the magic inside and steam-powered mechanisms allow the wearer to hit harder, jump higher, and run faster.</p>
+      <p>Three times per day, one of three buffs can be chosen: +1 to attack rolls and an extra 1d6 force damage per attack, +10 ft. movement speed, or the effect of the spell <em>Jump</em>.</p>
+    </description>
+    <setters>
+      <set name="keywords">unarmed strikes,attack,damage</set>
+      <set name="category">Wondrous Items</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Rare</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="5">5 lb.</set>
+      <set name="magic">true</set>
+    </setters>
+  </element>
+
+  <!-- PROFICIENCIES -->
+
+  <element name="Weapon Proficiency (Khopesh)" type="Proficiency" source="Sun Slayers Custom Content" id="ID_SUN_WEAPON_PROFICIENCY_KHOPESH">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+  </element>
+
 </elements>

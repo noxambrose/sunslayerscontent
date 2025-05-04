@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Sun Slayers Custom Items</name>
-    <update version="0.1.2">
+    <update version="0.1.3">
       <file name="sunslayers-items.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sunslayers/sunslayers-items.xml" />
     </update>
   </info>

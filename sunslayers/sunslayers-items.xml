@@ -9,7 +9,7 @@
 
   <!-- MUNDANE ITEMS -->
 
-  <element name="Tarot Deck" type="Item" source="Player's Handbook" id="ID_SUN_ITEM_TAROTDECK">
+  <element name="Tarot Deck" type="Item" source="Sun Slayers Custom Content" id="ID_SUN_ITEM_TAROTDECK">
     <description>
       <p>A deck of tarot cards for use as a divining tool.</p>
     </description>

@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Sun Slayers Custom Items</name>
-    <update version="0.0.10">
+    <update version="0.1.0">
       <file name="sunslayers-items.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sunslayers/sunslayers-items.xml" />
     </update>
   </info>
@@ -62,6 +62,8 @@
     </setters>
   </element>
 
+  <!-- WONDROUS ITEMS -->
+  
   <element name="Marky's Magical Master Mashers" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_MARKY_MAGIC_BOOTS">
     <description>
       <p>A pair of ornate magical boots made with the assistance of the artificers in Tinker Town. Marciano de Candia helped build these boots as a way to buff the abilities of his sister's kicks. When worn, the magic inside and steam-powered mechanisms allow the wearer to hit harder, jump higher, and run faster.</p>
@@ -74,6 +76,22 @@
       <set name="rarity">Rare</set>
       <set name="cost" currency="gp">0</set>
       <set name="weight" lb="5">5 lb.</set>
+      <set name="magic">true</set>
+    </setters>
+  </element>
+
+  <element name="Mask of Smoke" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_MASK_OF_SMOKE">
+    <description>
+      <p>An intricate alabaster mask. It turns a darker, almost black color when demons are near. When wearing it, demons regard you as friendly upon first meeting.</p>
+      <p>While wearing the mask, you have resistance to fall damage. You can cast the <em>Blink</em> spell once a day.</p>
+    </description>
+    <setters>
+      <set name="keywords">mask,spells</set>
+      <set name="category">Wondrous Items</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Rare</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="1">1 lb.</set>
       <set name="magic">true</set>
     </setters>
   </element>

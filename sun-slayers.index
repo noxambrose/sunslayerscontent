@@ -2,7 +2,8 @@
 <index>
   <info>
     <!-- LAST UPDATE 5/4/25 -->
-    <update version="0.1.8">
+    <!-- ADDED: Character starting magic items. Knife of the Vampire Lord, Ring of Endless Hunt, Phantom Cloak, Collar of Cuteness. -->
+    <update version="0.1.9">
       <file name="sun-slayers.index" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sun-slayers.index" />
     </update>
     <name>Sun Slayers</name>

@@ -20,7 +20,6 @@
 			<set name="stackable">false</set>
 		</setters>
 	</element>
-</elements>
 
 <!-- WEAPONS -->
 	
@@ -81,4 +80,5 @@
 <element name="Weapon Proficiency (Khopesh)" type="Proficiency" source="Sun Slayers Custom Content" id="ID_SUN_WEAPON_PROFICIENCY_KHOPESH">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 	</element>
-
+	
+</elements>

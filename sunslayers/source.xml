@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-	<update version="0.0.3">
-		<file name="source.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sunslayers/source.xml" />
-	</update>
     <name>Sun Slayers Custom Content</name>
     <description>
       <p><strong>While Chaos attempts to begin her reign in Terrna, new heroes must rise up to stop her...</strong></p>

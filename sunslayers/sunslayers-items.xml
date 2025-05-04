@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Sun Slayers Custom Items</name>
-    <update version="0.1.1">
+    <update version="0.1.2">
       <file name="sunslayers-items.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sunslayers/sunslayers-items.xml" />
     </update>
   </info>
@@ -62,6 +62,29 @@
     </setters>
   </element>
 
+	<element name="Knife of the Vampire Lord" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_KNIFE_OF_THE_VAMPIRE">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_RANGE</supports>
+    <description>
+      <p><b>Bloodmagic:</b> As an action you can regain the spell slot of the last spell you have cast by wounding yourself with this dagger. You deal yourself 1d4+2 piercing damage and an additional 1d6 necrotic damage per spell slot level. You can regain any spell slot from 1st level to a maximum of 6th level.</p>
+      <p class="indent">If the last spell you cast was of 7th slot or higher, you regain a 6th level spell slot instead. You roll 6d6 for this.</p>
+    </description>
+    <setters>
+      <set name="keywords">dagger,thrown,vampire</set>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="slot">onehand</set>
+      <set name="versatile">false</set>
+      <set name="type" addition="dagger">Weapon</set>
+      <set name="damage" type="piercing">1d4</set>
+      <set name="attunement">true</set>
+      <set name="range">20/60</set>
+      <set name="rarity">Very Rare</set>
+      <set name="enhancement">2</set>
+      <set name="weapon">Dagger</set>
+      <set name="magic">true</set>
+    </setters>
+  </element>
+
   <!-- WONDROUS ITEMS -->
   
   <element name="Marky's Magical Master Mashers" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_MARKY_MAGIC_BOOTS">
@@ -100,6 +123,60 @@
       <set name="weight" lb="1">1 lb.</set>
       <set name="magic">true</set>
     </setters>
+  </element>
+
+<element name="Ring of the Endless Hunt" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_RING_OF_THE_HUNT">
+    <description>
+      <p>This ring is rumored to have been work by the finest archers of the Gil Galdan army. Whenever a bow is drawn by the hand wearing this ring, a nonmagic arrow springs forth, notched and ready to fire.</p>
+    </description>
+    <setters>
+      <set name="keywords">ring,archery,bow,arrow</set>
+      <set name="category">Wondrous Items</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Rare</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="attunement">true</set>
+      <set name="magic">true</set>
+    </setters>
+  </element>
+
+  <element name="Phantom Cloak" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_PHANTOM_CLOAK">
+    <description>
+      <p><b>(2/day) Ghost Form:</b> As a bonus action, you can touch the pendant and appear as an ethereal ghost for 1 minute whilst concentrating. While in this form, you cannot speak, and all physical damage you deal or suffer is reduced by half.</p>
+      <p class="indent">You can move through solid objects, doing so at half speed. For every 5ft. of solid material you pass through, you suffer 2d4 damage (this cannot be reduced).</p>
+    </description>
+    <setters>
+      <set name="keywords">cloak,phantom,ghost</set>
+      <set name="category">Wondrous Items</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="attunement">true</set>
+      <set name="magic">true</set>
+    </setters>
+  </element>
+
+  <element name="Collar of Cuteness" type="Magic Item" source="Sun Slayers Custom Content" id="ID_SUN_MAGIC_ITEM_COLLAR_OF_CUTENESS">
+    <description>
+      <p>When worn, the collar will become a bright color of the wearer's choosing. You gain advantage on Persuasion, Animal Handling, and Performance checks.</p>
+      <p class="indent"><b>Keen Senses:</b> If the wearer does not already have it, they now have advantage on wisdom checks relying on hearing or smell.</p>
+      <p class="indent"><b>Cute Charm:</b> Once per day, the wearer can perform a cute action and all humanoids within 60ft must make a DC15 Wisdom saving throw or be charmed. On a sucessful save, the target cannot be charmed by the wearer for 24 hours. The effect ends if the wearer is incapacitated or attacks the charmed being.</p>
+    </description>
+    <setters>
+      <set name="keywords">collar,cute,charm</set>
+      <set name="category">Wondrous Items</set>
+      <set name="type">Wondrous Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="cost" currency="gp">425</set>
+      <set name="weight" lb=".5">0.5 lb.</set>
+      <set name="attunement">true</set>
+      <set name="magic">true</set>
+    </setters>
+    <rules>
+	<stat name="charisma" value="2" />
+    </rules>    
   </element>
 
   <!-- PROFICIENCIES -->

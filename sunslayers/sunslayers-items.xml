@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Sun Slayers Custom Items</name>
-    <update version="0.1.0">
+    <update version="0.1.1">
       <file name="sunslayers-items.xml" url="https://raw.githubusercontent.com/noxambrose/sunslayerscontent/main/sunslayers/sunslayers-items.xml" />
     </update>
   </info>
@@ -69,8 +69,8 @@
       <p>A pair of ornate magical boots made with the assistance of the artificers in Tinker Town. Marciano de Candia helped build these boots as a way to buff the abilities of his sister's kicks. When worn, the magic inside and steam-powered mechanisms allow the wearer to hit harder, jump higher, and run faster.</p>
       <p>Three times per day, one of three buffs can be chosen: +1 to attack rolls and an extra 1d6 force damage per attack, +10 ft. movement speed, or the effect of the spell <em>Jump</em>.</p>
       <div class="reference">
-				<div element="ID_PHB_SPELL_JUMP" />
-			</div>
+	<div element="ID_PHB_SPELL_JUMP" />
+	</div>
     </description>
     <setters>
       <set name="keywords">unarmed strikes,attack,damage</set>
@@ -88,8 +88,8 @@
       <p>An intricate alabaster mask. It turns a darker, almost black color when demons are near. When wearing it, demons regard you as friendly upon first meeting.</p>
       <p>While wearing the mask, you have resistance to fall damage. You can cast the <em>Blink</em> spell once a day.</p>
       <div class="reference">
-				<div element="ID_PHB_SPELL_BLINK" />
-			</div>
+	<div element="ID_PHB_SPELL_BLINK" />
+	</div>
     </description>
     <setters>
       <set name="keywords">mask,spells</set>
